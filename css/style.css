@@ -614,6 +614,18 @@ strong {
   margin-top: 250px;
   margin-left: -500px;
 }
+.artists-section h2:nth-child(2){
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 280px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  fill: none;
+  margin-top: 330px;
+  margin-left: -1050px;
+}
 
 .artists-thumb:hover {
   filter: grayscale(1);

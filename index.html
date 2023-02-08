@@ -199,6 +199,7 @@
 
                  
                 <h2 class="text-center" id="wordStyle">THE ARTISTS</h2>
+                <h2 class="text-center" id="wordStyle2">THE ARTISTS</h2>
 
 
                     <div class="col-lg-6 col-12">
@@ -268,12 +269,14 @@
                     </div>
                     <script>
                         let wordStyle = document.getElementById('wordStyle');
-                       
+                        let wordStyle2 = document.getElementById('wordStyle2');
+                        let wordStyle3 = document.getElementById('wordStyle3');
                   
                         window.addEventListener('scroll', function(){
                             let value = window.scrollY;
                             wordStyle.style.left = value * 0.2 + 'px';
-                            wordStyle.style.marginTop = value * 0.05 + 'px';
+
+                            wordStyle2.style.left = value * 0.25 + 'px';
                             
                       
                         })
