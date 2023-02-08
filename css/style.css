@@ -38,7 +38,8 @@
 body {
   scroll-behavior: smooth;
   background-color: var(--white-color);
-  font-family: var(--body-font-family); 
+  font-family: var(--body-font-family);
+  overflow-x: hidden; 
 }
 
 
